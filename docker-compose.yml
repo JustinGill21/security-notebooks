@@ -1,0 +1,8 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  yeet:
+    image: jupyter/datascience-notebook:b418b67c225b
+    ports:
+      - "10000:8888"
+    volumes:
+      - .:/home/jovyan/work
