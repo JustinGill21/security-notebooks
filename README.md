@@ -12,3 +12,9 @@ Do the same for `docker-compose.yml` file:
 ```bash
 docker-compose up -d
 ```
+
+I've uploaded a public docker image to dockerhub where it can be pulled from any machine using the command
+
+```bash
+docker pull justingill/my-datascience-notebook
+```
